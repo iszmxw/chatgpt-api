@@ -3,7 +3,7 @@ import { ChatGPTUnofficialProxyAPI } from 'chatgpt'
 export async function send_message(req, res) {
     const {
         access_token,
-        reverse_proxy = 'https://chat.oaifree.com/api/conversation',
+        reverse_proxy = 'https://chat.openai.com/api/conversation',
         prompt,
         conversation_id,
         parent_message_id,
